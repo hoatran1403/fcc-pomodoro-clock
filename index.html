@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>FCC - Pomodoro Clock</title>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/resources/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="text-center"><h1 class="title">Pomodoro Clock in JS</h1></div>
+    <br />
+    <div>
+      <div class="row control">
+        <div class="form-group col-md-2 ">
+          <label for="break-length text-success"><h4><strong>Break</strong></h4></label>
+          <select class="form-control input-lg" id="break-length"></select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="section-length"><h4><strong>Section</strong></h4></label>
+          <select class="form-control input-lg" id="section-length"></select>
+        </div>
+        <div class="form-group col-md-2 col-md-offset-4">
+          <label><h4><strong><br /></strong></h4></label>
+          <button type="button"class="btn btn-primary btn-lg" id="start"><strong>Start</strong></button>
+        </div>
+
+        <div class="form-group col-md-2 ">
+          <label><h4><strong><br /></strong></h4></label>
+          <button type="button" class="btn btn-danger btn-lg" id="stop"><strong>Stop</strong></button>
+        </div>
+      </div>
+
+      <div class="well text-center">
+        <h4><span class="label" id="notification"></span></h4>
+        <h1><strong id="display"></strong></h1>
+      </div>
+      <h5 class="text-center" style="color:#f9dcdc"><strong>Developed By <a href="http://codepen.io/hoatran1403/" target="_blank">Hoa Tran</a></strong></h5>
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/resources/js/script.js">
+
+</script>
+</html>
